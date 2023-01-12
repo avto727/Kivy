@@ -36,6 +36,36 @@ MDFloatLayout:
         pos_hint: {"center_x": .5, "center_y": .54}
         halign: "center"
         font_size: "20sp"
+    MDFloatLayout:
+        pos_hint: {"center_x": .25, "center_y": .4}
+        size_hint: .22, .1
+        Image:
+            source: "assets/humidity.png"
+            pos_hint: {"center_x": .1, "center_y": .5}
+        MDLabel:
+            id: humidity
+            text: "80%"
+            pos_hint: {"center_x": 1, "center_y": .7}
+            font_size: "14sp"
+        MDLabel:
+            text: "Humidity"
+            pos_hint: {"center_x": 1, "center_y": .3}
+            font_size: "14sp"
+    MDFloatLayout:
+        pos_hint: {"center_x": .7, "center_y": .4}
+        size_hint: .22, .1
+        Image:
+            source: "assets/wind.png"
+            pos_hint: {"center_x": .1, "center_y": .5}
+        MDLabel:
+            id: wind_speed
+            text: "80 km/h"
+            pos_hint: {"center_x": 1.1, "center_y": .7}
+            font_size: "16sp"
+        MDLabel:
+            text: "Wind"
+            pos_hint: {"center_x": 1.1, "center_y": .3}
+            font_size: "14sp"
 '''
 
 class WeatherApp(MDApp):
