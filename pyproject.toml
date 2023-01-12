@@ -8,6 +8,7 @@ authors = ["Andrey Dubodelov <a.dubodelov@a-dubodelov.ru>"]
 python = "^3.10"
 Cython = "^0.29.33"
 plyer = "^2.1.0"
+requests = "^2.28.2"
 
 [tool.poetry.dev-dependencies]
 
