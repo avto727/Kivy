@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kivy"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Dubodelov <a.dubodelov@a-dubodelov.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Cython = "^0.29.33"
+plyer = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,30 @@
+[[package]]
+name = "cython"
+version = "0.29.33"
+description = "The Cython compiler for writing C extensions for the Python language."
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
+name = "plyer"
+version = "2.1.0"
+description = "Platform-independent wrapper for platform-dependent APIs"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+android = ["pyjnius"]
+dev = ["mock", "flake8"]
+ios = ["pyobjus"]
+macosx = ["pyobjus"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "8d7ed0b80d33029e33d1d21db225fec871f6e06fb8a0e11e3529195a9ff4f35d"
+
+[metadata.files]
+cython = []
+plyer = []
