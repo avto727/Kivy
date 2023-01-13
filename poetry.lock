@@ -1,4 +1,30 @@
 [[package]]
+name = "beautifulsoup4"
+version = "4.11.1"
+description = "Screen-scraping library"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+soupsieve = ">1.2"
+
+[package.extras]
+html5lib = ["html5lib"]
+lxml = ["lxml"]
+
+[[package]]
+name = "bs4"
+version = "0.0.1"
+description = "Dummy package for Beautiful Soup"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+beautifulsoup4 = "*"
+
+[[package]]
 name = "certifi"
 version = "2022.12.7"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -63,6 +89,14 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "soupsieve"
+version = "2.3.2.post1"
+description = "A modern CSS selector implementation for Beautiful Soup."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "urllib3"
 version = "1.26.14"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -78,13 +112,16 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2a83656695d9172a2af036be102171d913f776ff560912d276b9f17a79407b17"
+content-hash = "3b695d9807057fcd47181eed8a4ff2fe1331ca45c498349a5b897b3bd5536e2a"
 
 [metadata.files]
+beautifulsoup4 = []
+bs4 = []
 certifi = []
 charset-normalizer = []
 cython = []
 idna = []
 plyer = []
 requests = []
+soupsieve = []
 urllib3 = []
